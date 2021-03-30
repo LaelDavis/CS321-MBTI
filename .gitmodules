@@ -1,0 +1,3 @@
+[submodule "/home/lael/CS321-MBTI/tinder"]
+	path = /home/lael/CS321-MBTI/tinder
+	url = https://github.com/karlhadwen/tinder.git
