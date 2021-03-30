@@ -1,0 +1,79 @@
+[
+  {
+    "id": 0,
+    "name": "Karl",
+    "desc": "ESFJ",
+    "age": 26,
+    "image": "1_image.jpg",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  },
+  {
+    "id": 1,
+    "name": "Martin",
+    "desc": "INTJ",
+    "age": 35,
+    "image": "2_image.jpg",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  },
+  {
+    "id": 2,
+    "name": "Emily",
+    "desc": "ISFP",
+    "age": 35,
+    "image": "3_image.jpg",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  },
+  {
+    "id": 3,
+    "name": "Michael",
+    "desc": "ESTJ",
+    "age": 31,
+    "image": "4_image.jpg",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  },
+  {
+    "id": 4,
+    "name": "Jessica",
+    "desc": "INFP",
+    "age": 40,
+    "image": "5_image.jpg",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  },
+  {
+    "id": 5,
+    "name": "Dwight",
+    "desc": "ISTP",
+    "age": 37,
+    "image": "6_image.jpg",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  },
+  {
+    "id": 6,
+    "name": "Alexandra",
+    "desc": "ENTP",
+    "age": 32,
+    "image": "7_image.jpg",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  }
+]
