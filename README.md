@@ -14,7 +14,6 @@ These two are mainly for hosting the server while you upload and work on the app
 
 Steps:
 
-For the steps, you would need to work your way into the "mbti" directory and once inside just call "yarn" to build the application. If that doesn't work, you can try running
-"yarn run start" for another way to start the application.
+For the steps, you would need to work your way into the "mbti" directory and once inside just call "yarn" to build/update the application. Afterwards, just call "yarn run start" to start the application.
 
 If there is anything you need or any questions, just ping me at ldavis24@masonlive.gmu.edu.
