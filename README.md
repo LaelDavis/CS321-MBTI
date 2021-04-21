@@ -1,4 +1,4 @@
-# MBTI
+# TypeDate
 
 This is a repo for a dating application that focuses on the Myers Briggs Test Indicator, more formally known as MBTI. It will be inspired by Tinder and various dating applications.
 
