@@ -1,9 +1,17 @@
 import React, { useState } from 'react';
 import './App.css';
+//import {BrowserRouter, Route, Switch } from 'react-router-dom';
+
 import Header from './components/Header';
 import Person from './components/Person';
 import Lonely from './components/Lonely';
 import data from './data.json';
+
+//import Dashboard from './components/Dashboard/Dashboard';
+//import Preferences from './components/Preferences/Preferences';
+
+import Login from './components/Login/Login';
+
 
 const App = () => {
   const [people, setPeople] = useState(data);
@@ -11,6 +19,13 @@ const App = () => {
   const [superLikedUsers, setSuperLikedUsers] = useState([]);
   const [dislikedUsers, setDislikedUsers] = useState([]);
   const activeUser = 0;
+
+  //const token = getToken();
+  const [token, setToken] = useState();
+
+  if(!token) {
+	  return <Login setToken={setToken} />
+  }
 
   const removedPersonFromDataSrc = (peopleSource, userId) =>
     peopleSource.filter(user => user.id !== userId);
@@ -55,7 +70,8 @@ const App = () => {
   };
 
   return (
-    <div className="app">
+   <div className="parentClass">
+   <div className="app">
       <Header />
       {people[1] ? (
         <Person
@@ -72,6 +88,8 @@ const App = () => {
         />
       )}
     </div>
+
+  </div>
   );
 };
 
