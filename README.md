@@ -20,7 +20,9 @@ You will need to install a few dependencies for the hosting.
 
 Next, work your way into the "CS321-MBTI/mbti/src/" directory and once inside just call "yarn" to build/update the application. Yarn will call the application from the "App.js" function.
 
-Make sure to have the "server.js" terminal running alongisde. This is used for the hosting of the site for now. 
+If you have issues running you may have to delete the node_modules folder in the "mtbi" folder and call yarn again to rebuild the project.
+
+Make sure to have the "server.js" terminal running alongisde by calling node server.js. This is used for the hosting of the site for now. 
 
 Afterwards, just call "yarn run start" to start the application.
 

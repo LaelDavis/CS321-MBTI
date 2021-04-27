@@ -1,10 +1,13 @@
 import React from 'react';
 import Logo from './Logo';
 
-const Header = () => (
+const Header = ({setCurrentPage, page}) => (
   <header>
     <div className="fl">
-      <button type="button">
+      <button 
+        type="button"
+        onClick={() => setCurrentPage(page)}
+      >
         <img src="/images/misc/user.png" alt="User Settings" />
       </button>
     </div>
